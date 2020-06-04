@@ -4,6 +4,10 @@ Unique.<br>
 Accessible.
 </p>
 
+<div class="card">
+  <div class="card-header">
+    Features at a glance
+  </div>
 <ul class="list-group">
     <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
 	Subcellular Resolution
@@ -24,6 +28,7 @@ Accessible.
 	Up to 24 Samples per Run
     </li>
 </ul>
+</div>
 
 <h3>
 Introduction
