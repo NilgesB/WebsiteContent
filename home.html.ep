@@ -1,8 +1,8 @@
-<h1 class="display-1 text-right">
+<h3 class="display-3 text-right text-orange">
 Innovative Technology.<br>
 Unique.<br>
 Accessible.
-</h1>
+</h3>
 
 <ul class="list-group">
     <li class="list-group-item">Subcellular Resolution</li>
@@ -13,12 +13,13 @@ Accessible.
     <li class="list-group-item">Up to 24 Samples per Run</li>
 </ul>
 
-<h1>
+<h3>
 Introduction
 <small class="text-muted">
 The Where, Why, What, and How of the Cell
 </small>
-<h1>
+</h3>
+
 <p>
 A cell is the fundamental unit of function of any tissue, 
 and the molecular identity of a cell is a crucial determinant 
