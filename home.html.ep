@@ -1,36 +1,47 @@
-<h3 class="display-3 text-right text-orange">
+<p class="display-4 text-right text-primary">
 Innovative Technology.<br>
 Unique.<br>
 Accessible.
-</h3>
+</p>
 
 <ul class="list-group">
-    <li class="list-group-item">Subcellular Resolution</li>
-    <li class="list-group-item">Superior Sensitivity</li>
-    <li class="list-group-item">Intact Tissue</li>
-    <li class="list-group-item">Fully Customizable Gene panels</li>
-    <li class="list-group-item">Up to 100 Targets Simultaneously</li>
-    <li class="list-group-item">Up to 24 Samples per Run</li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+	Subcellular Resolution
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+	Superior Sensitivity
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+	Intact Tissue
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+	Fully Customizable Gene panels
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+	Up to 100 Targets Simultaneously
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+	Up to 24 Samples per Run
+    </li>
 </ul>
 
 <h3>
 Introduction
-<small class="text-muted">
+<small class="text-muted text-info">
 The Where, Why, What, and How of the Cell
 </small>
 </h3>
 
 <p>
 A cell is the fundamental unit of function of any tissue, 
-and the molecular identity of a cell is a crucial determinant 
-of its role in this function.  Visualisation of the intricate 
-interplay between individual cells, their molecular inventory, 
-and their relative locations within a tissue sample is critical 
-to understanding biology in health and disease. 
+and the molecular identity of a cell is a crucial determinant of this function. 
+Visualisation of the intricate interplay between individual cells, 
+their molecular inventory, and their relative locations within a tissue sample 
+is critical to understanding biology in health and disease. 
 </p>
 <p>
 Apollo Life Sciences GmbH (a spin-out of QIAGEN), has now pioneered 
-a new imaging-based technology – named, <span class="lead">genexyz</span> – 
+a new imaging-based technology – named <b>genexyz</b> – 
 that enables quantification of up to 100 gene transcripts in a tissue sample 
 at cellular and even subcellular resolution.
 </p>
