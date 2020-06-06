@@ -1,3 +1,4 @@
+<div class="container h-100 pb-3- mb-3">
 <p class="display-4 text-right text-primary">
 Innovative Technology.<br>
 Unique.<br>
@@ -30,12 +31,12 @@ Accessible.
 </ul>
 </div>
 
-<h3>
+<h2>
 Introduction
 <small class="text-muted text-info">
 The Where, Why, What, and How of the Cell
 </small>
-</h3>
+</h2>
 
 <p>
 A cell is the fundamental unit of function of any tissue, 
@@ -50,3 +51,5 @@ a new imaging-based technology – named <b>genexyz</b> –
 that enables quantification of up to 100 gene transcripts in a tissue sample 
 at cellular and even subcellular resolution.
 </p>
+
+</div>
