@@ -1,4 +1,4 @@
-<div class="container h-100 pb-3- mb-3">
+<div class="container h-100 pb-3 mb-3">
 <p class="display-4 text-right text-primary">
 Innovative Technology.<br>
 Unique.<br>
@@ -31,8 +31,7 @@ Accessible.
 </ul>
 </div>
 
-<h2>
-Introduction
+<h2 id="introduction">Introduction
 <small class="text-muted text-info">
 The Where, Why, What, and How of the Cell
 </small>
