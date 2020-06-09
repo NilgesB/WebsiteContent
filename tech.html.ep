@@ -1,1 +1,108 @@
-Technology description here...
+<p class="display-4 text-right text-primary">
+Digital Quantification.<br>
+Subcellular.<br>
+Automized.
+</p>
+
+
+<h2>Our Technology</h2>
+
+<p>
+Brief overview of our <strong>genexyz</strong> system:
+</p>
+
+<div class="card">
+  <div class="card-header">
+Unleash a whole new world of possibilities
+  </div>
+<ul class="list-group">
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Digitally quantify single-cell gene expression in intact tissue: One spot = one transcript 
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Zoom in onto cellular heterogeneity for cell typing and subtyping applications
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Decode the tissue microenvironment in health and disease
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Discover new disease biomarkers
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Investigate new mechanisms of action - and new drugs
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Study the spatial partition of biological reactions, even intracellularly
+    </li>
+    <li class="list-group-item"><i class="material-icons text-success mr-2">done_outline</i>
+Retain your precious samples intact for pathology mapping, cell labeling, and immunohistochemistry
+    </li>
+</ul>
+</div>
+
+<h3>Principle</h3>
+
+<p>
+We build upon, and improved, a combinatorial (sequential) single-molecule 
+fluorescence in-site hybridization (smFISH) approach. Our proprietary 
+transcript-specific probes are designed to color-code targeted genes 
+of interest in several rounds of hybridization and 3D-imaging (z-stacks) 
+with a unique encoding scheme.
+</p>
+
+<p>
+Other key features are reliable detection of very rare transcripts, 
+exquisite resolution, and the possibility to post-procress 
+the sample, e.g. using standard cell labeling with antibodies or dyes, 
+which make the genexyz system play in a league of its own.
+</p>
+
+<h3>Workflow</h3>
+
+<p>
+Our procedure is versatile, and was succesfully applied to different cell-culture systems 
+and various tissues from different organisms. 
+</p>
+
+<h4>Fixation & Hybridization</h4>
+
+<p>
+The first step is the fixation of the sample (tissues or cell cultures) to a special glass slide 
+followed by the hybridization of gene-specific probes. 
+We offer standard gene panels for certain applications, but also provide an online interface 
+for fully customized panels to exactly match your research needs.
+</p>
+
+%# <image 1>
+
+<h4>Imaging</h4>
+
+<p>
+Multiple rounds of coloring, imaging, and decoloring of the probes are performed. 
+This process will be fully automized by our genexyz platform. 
+Microscopic data capture and subsequent image analysis occurs on-the-fly. 
+</p>
+
+<h4>Results</h4>
+
+<p>
+The final output are segmented spots with corresponding gene identity in an easy 
+to process plain text file. Intersections with regions of interest such as 
+cell-boundaries or other spacial domains yield data in formats compatible with 
+standard downstream bioinformatic tools commonly applied to characterize and 
+cluster single cells based on transcription profiles.
+</p>
+
+%# <images 2,3,4>
+
+<h3>Secondary Analysis</h3>
+
+<p>
+Our interactive analysis software allows the user to helps to perform subsequent 
+data analysis such as quantification (counting), and it helps to project results 
+back into the images, either highlighting individual transcripts, combinations of 
+genes or whole gene-sets to map transcription patterns onto morphological structures. 
+A colocalization matrix is determined and presented as a dendrogram or heatmap. 
+Results can be exported in publication-ready quality.
+</p>
+
