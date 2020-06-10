@@ -5,7 +5,7 @@ Automized.
 </p>
 
 
-<h2>Our Technology</h2>
+<h2 id="technology">Our Technology</h2>
 
 <p>
 Brief overview of our <strong>genexyz</strong> system:
@@ -43,7 +43,7 @@ Retain your precious samples intact for pathology mapping, cell labeling, and im
 </ul>
 </div>
 
-<h3>Principle</h3>
+<h2 id="principle">Principle</h2>
 
 <p>
 We build upon, and improved, a combinatorial (sequential) single-molecule 
@@ -60,7 +60,7 @@ the sample, e.g. using standard cell labeling with antibodies or dyes,
 which make the genexyz system play in a league of its own.
 </p>
 
-<h2>Workflow</h2>
+<h2 id="workflow">Workflow</h2>
 
 <p>
 Our procedure is versatile, and was succesfully applied to different cell-culture systems 
@@ -194,7 +194,7 @@ additional staining, e.g. using immunohistochemistry, afterwards.
 	</div>
 </div>
 
-<h3>Analysis</h3>
+<h2 id="results">Results</h2>
 
 <p>
 The final output are segmented spots with corresponding gene identity in an easy 
