@@ -11,6 +11,9 @@ Automized.
 Brief overview of our <strong>genexyz</strong> system:
 </p>
 
+<div class="genexyz-logo-big"></div>
+
+
 <div class="card">
   <div class="card-header">
 Unleash a whole new world of possibilities
@@ -57,52 +60,190 @@ the sample, e.g. using standard cell labeling with antibodies or dyes,
 which make the genexyz system play in a league of its own.
 </p>
 
-<h3>Workflow</h3>
+<h2>Workflow</h2>
 
 <p>
 Our procedure is versatile, and was succesfully applied to different cell-culture systems 
-and various tissues from different organisms. 
+and various tissues from different organisms. It consists of three main steps outlined below.
+</p>
+
+
+<div class="row">
+        <div class="card-group wf-group">
+                <div class="card wf wf-first-primary">
+                        <h5>Prepare</h5>
+			<p>the sample</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Process</h5>
+			<p>on our instrument</p>
+                </div>
+                <div class="card wf wf-last-primary">
+                        <h5>Analyse</h5>
+			<p>interpret results</p>
+                </div>
+	  </div>
+</div>
+
+<h3>Preparation</h3>
+
+<p>
+Before starting a run on the instrument, a sample needs to be treated in a special way, 
+and gene-specific probes need to be attached.
+</p>
+
+<h4>Gene Panels</h4>
+
+<p>
+We offer standard gene panels for certain applications, but also provide an online interface
+for fully customized panel design to exactly match your research needs. 
+The list of species we offer designs for (in addition to <strong>human</strong> and 
+<strong>mouse</strong>), and more details are given directly on the design-interface page.
 </p>
 
 <h4>Fixation & Hybridization</h4>
 
 <p>
-The first step is the fixation of the sample (tissues or cell cultures) to a special glass slide 
-followed by the hybridization of gene-specific probes. 
-We offer standard gene panels for certain applications, but also provide an online interface 
-for fully customized panels to exactly match your research needs.
+The first step of sample-preparation comprises of the <strong>fixation</strong> of the sample 
+(tissues or cell cultures) to a special microscope slide which we will provide for your 
+type of sample, followed by the <strong>hybridization</strong> of the gene-specific probes.
 </p>
 
-%# <image 1>
+<div class="row">
+	<div class="card-group wf-group">	
+		<div class="card wf wf-first-primary">
+			<h5>Fixation</h5>
+			<p>attach sample to slide</p>
+		</div>
+		<div class="card wf wf-cont-primary">			
+			<h5>Hybridisation</h5>
+			<p>bind specific probes</p>
+		</div>
+		<div class="card wf">
+			<h5><i class="material-icons">arrow_forward</i></h5>
+			<p>ready for automation...</p>
+		</div>
+	</div>
+</div>
 
-<h4>Imaging</h4>
+<h3>Processing</h3>
 
 <p>
-Multiple rounds of coloring, imaging, and decoloring of the probes are performed. 
-This process will be fully automized by our genexyz platform. 
-Microscopic data capture and subsequent image analysis occurs on-the-fly. 
+After mounting the sample on the instrument, a setup-wizard will 
+guide through sample naming, region selection and assignment of 
+probe-sets used for each well.
 </p>
 
-<h4>Results</h4>
+<p>
+During the run, multiple rounds - typically eight - of 
+<strong>colorization</strong>, <strong>imaging</strong>, 
+and <strong>decolorization</strong> of the 
+probes are performed. This process will take around three days to complete, 
+depending on the number of samples and regions that are being imaged.
+This process will be fully automized by our <strong>genexyz</strong> platform.
+Microscopic data capture and subsequent image analysis occurs on-the-fly.
+</p>
+
+<div class="row">
+        <div class="card-group wf-group">
+                <div class="card wf wf-small">
+                   <h5><i class="material-icons">play_circle_outline</i></h5>
+                   <p>setup &amp; start...</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Colorization</h5>
+			<p>add labels</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Imaging</h5>
+                        <p>all regions, z-stacks</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Decolorization</h5>
+                        <p>reset labels</p>
+                </div>           
+		<div class="card wf wf-small">
+                        <h5><i class="material-icons">replay</i></h5>
+                        <p>repeat 8 &times;</p>
+                </div>
+  </div>
+</div>
+
+<h4>Optional Post Processing</h4>
+
+<p>
+We recommend adding a DNA-staining step with DAPI as the last step of the procedure. 
+As the sample is not destroyed during our workflow, it is possible to perform 
+additional staining, e.g. using immunohistochemistry, afterwards.
+<p>
+
+<div class="row">
+        <div class="card-group wf-group">
+                <div class="card wf wf-small">
+                   <h5><i class="material-icons">add_circle_outline</i></h5>
+                   <p>optional</p>
+                </div>
+                <div class="card wf wf-cont">
+                        <h5>DAPI Stain</h5>
+                        <p>to localize nuclei</p>
+                </div>
+                      <div class="card wf wf-cont">
+                        <h5>Custom Stain</h5>
+                        <p>use your favourite reagents or antibodies</p>
+                </div>
+	</div>
+</div>
+
+<h3>Analysis</h3>
 
 <p>
 The final output are segmented spots with corresponding gene identity in an easy 
-to process plain text file. Intersections with regions of interest such as 
-cell-boundaries or other spacial domains yield data in formats compatible with 
-standard downstream bioinformatic tools commonly applied to characterize and 
-cluster single cells based on transcription profiles.
+to process plain text file. 
 </p>
 
-%# <images 2,3,4>
-
-<h3>Secondary Analysis</h3>
-
+<h3>Secondary Analysis Software</h3>
 <p>
-Our interactive analysis software allows the user to helps to perform subsequent 
-data analysis such as quantification (counting), and it helps to project results 
-back into the images, either highlighting individual transcripts, combinations of 
-genes or whole gene-sets to map transcription patterns onto morphological structures. 
-A colocalization matrix is determined and presented as a dendrogram or heatmap. 
+Our interactive analysis software helps to perform subsequent data analysis such as
+quantification (counting), and it helps to project results back into the images,
+either highlighting individual transcripts, combinations of genes or whole gene-sets
+to map transcription patterns onto morphological structures.
+A colocalization matrix is determined and presented as a dendrogram or heatmap.
 Results can be exported in publication-ready quality.
 </p>
+
+<!-- Add a section for online analysis if that is usable -->
+
+<h3>Community Software</h3>
+<p>
+Intersections with regions of interest, such as cell-boundaries or other spatial domains, 
+yield data in formats compatible with standard downstream bioinformatic tools that are 
+commonly applied to characterize and cluster single cells based on transcription profiles.
+We will provide example datasets and tutorials to demonstrate how standard tools can help 
+to interpret your data.
+</p>
+
+<div class="row">
+        <div class="card-group wf-group">
+                <div class="card wf wf-small">
+                   <h5><i class="material-icons">import_export</i></h5>
+                   <p>load results</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Visualize</h5>
+                        <p>map transcripts to images</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Analyze</h5>
+                        <p>view colocalization, and more...</p>
+                </div>
+                <div class="card wf wf-cont-primary">
+                        <h5>Export</h5>
+                        <p>prepare data for community solutions</p>
+                </div>
+                <div class="card wf wf-small">
+                        <h5><i class="material-icons">cloud_upload</i></h5>
+                        <p>run published tools</p>
+                </div>
+  </div>
+</div>
 
